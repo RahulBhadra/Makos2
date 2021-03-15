@@ -324,3 +324,9 @@ footer p
     grid-column: span 12;
   }
 }
+@media only screen and (max-width: 600px)
+ {#student, #campus, #company{
+  margin-left: 3.1cm;
+ }
+  
+}
