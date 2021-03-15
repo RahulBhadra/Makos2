@@ -1,0 +1,31 @@
+body{
+  
+  background: linear-gradient(to top, #bbbbbb 0%, #ffffff 100%);
+  min-height: 200vh;
+  font-family: 'Manrope';
+}
+
+.dashtitle{
+  text-align: center;
+  margin: 25px 0;
+  color: #288da7;
+  font-weight: 800;
+}
+
+.nametitle{
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  color: #648d97;
+
+}
+
+.tabtitle{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.table-bordered{
+  border: 2px solid #acacac !important;
+}

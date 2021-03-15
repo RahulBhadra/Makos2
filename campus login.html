@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .register {
+            /* background: linear-gradient( #00BC40, #4C3AE3); */
+
+            padding: 3%;
+        }
+
+        .register-left {
+            text-align: center;
+            color: #fff;
+            margin-top: 4%;
+        }
+
+        .register-left input {
+            border: none;
+            border-radius: 1.5rem;
+            padding: 2%;
+            width: 60%;
+            background: #f8f9fa;
+            font-weight: bold;
+            color: #383d41;
+            margin-top: 10%;
+            margin-bottom: 3%;
+            cursor: pointer;
+        }
+
+        .register-right {
+            margin-top:-20px ;
+        }
+
+        .register-left img {
+            margin-left: 45%;
+            margin-top: 20%;
+            margin-bottom: 5%;
+            width: 45%;
+        }
+
+        .register-left p {
+            font-weight: lighter;
+            padding: 12%;
+            margin-top: -9%;
+        }
+
+        .register .register-form {
+            padding: 10%;
+            margin-top: 5%;
+        }
+
+        .btnLogin {
+            float: right;
+            margin-top: 10%;
+            border: none;
+            border-radius: 1.5rem;
+            padding: 2%;
+            color: #fff;
+            font-weight: 600;
+            width: 30%;
+            cursor: pointer;
+        }
+
+        .cpy-rights {
+            color: white;
+            background-color: #009CFF;
+            height: 7vh;
+            padding-top: 1em;
+            padding-bottom: -1em;
+            font-size: 16px;
+        }
+
+        label {
+            font-size: 19px;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            .register-left img {
+                margin-top: 15%;
+                margin-bottom: 5%;
+                width: 25%;
+            }
+
+            .register-left h2 {
+                margin-bottom: 20px;
+            }
+
+            .register {
+                height: 87vh;
+            }
+
+            #logo {
+                margin-right: -50% !important;
+            }
+
+        }
+    </style>
+
+    <title>Campus Login</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://makosinfotech.com/"><img src="images/home-icon-silhouette.png"
+                    alt="home" width="30"></a>
+            <div class="collapse  logo navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <img src="images/logo.png" width="100" id="logo" class="d-inline-block align-top" alt="logo">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid register">
+        <div class="row">
+            <div class="col-md-4 register-left">
+                <img src="images/campus.png" alt="" />
+                
+            </div>
+            <div class="col-md-8 register-right">
+                <form action="" method="post" id="loginform">
+                    <div class="row register-form">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <div class="form-group">
+                                <h2 class="text-center" style="color: black;  font-size: 35px;">Campus Login</h2>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail Address</label>
+                                <input type="email" class="form-control" id="emailid"
+                                    placeholder="Enter your email id *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Password</label>
+                                <input type="password" class="form-control" id="pass"
+                                    placeholder="Enter your password *" value="" />
+                            </div>
+                            <input type="submit" class="btn-success btnLogin" value="LOG IN" />
+                            <!-- <span id="create_account">
+                                <a href="#" style="color: #1FCC44; font-size: 20px; margin-top: 20px;">Create your account ➡ </a>
+                            </span> -->
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="cpy-rights">
+        <div class="container ">
+            <p class="crights"> © <script type="text/javascript">
+                    var dt = new Date();
+                    document.write(dt.getFullYear());
+                </script> All Rights Reserved </p>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+$().ready(function() {
+    $("#valiform").validate({
+        rules:{
+            first_name: {
+                required: true,
+                lettersonly: true
+            },
+            last_name:{
+                required: true,
+                lettersonly: true,
+                minlength: 3
+            },
+            email:{
+                required: true,
+                email: true
+            },
+            phone_number:{
+                required: true,
+                minlength: 10,
+                maxlength:10,
+                phoneUS: true
+            },
+            whatsapp_number:{
+                required: true,
+                minlength: 10
+            },
+            dob: "required",
+            Portfolio:{
+                required: true,
+                url: true
+            },
+            LinkedIn:{
+                required: true,
+                url: true
+            },
+            Twitter:{
+                required: true,
+                url: true
+            },
+            Instagram:{
+                required: true,
+                url: true
+            },
+            Facebook:{
+                required: true,
+                url: true
+            },
+
+
+
+            messages: {
+                first_name:{
+                    required: "Please enter your first name",
+                    lettersonly: "please enter characters only"
+                },
+                last_name:{
+                required: "Please enter your last name",
+                lettersonly: "please enter characters only",
+                minlength: "Last name must be at least 3 charaters "
+            },
+            email:{
+                required: "Please enter your email",
+                email: "Please enter valid email"
+            },
+            phone_number:{
+                required: "Please enter your phone number",
+                minlength: "Invalid phone number",
+                maxlength:"Invalid phone number",
+                phoneUS:"Characters are not allowed"
+            },
+            whatsapp_number:{
+                required: "Please enter your phone number",
+                minlength: "Invalid phone number"
+            },
+            dob: "Please enter your DOB",
+            Portfolio:{
+                required: "Please provide your Portfolio link",
+                url: "Invalid url"
+            },
+            LinkedIn:{
+                required: "Please provide your LinkedIn link",
+                url: "Invalid url"
+            },
+            Twitter:{
+                required: "Please provide your Twitter link",
+                url: "Invalid url"
+            },
+            Instagram:{
+                required: "Please provide your Instagram link",
+                url: "Invalid url"
+            },
+            Facebook:{
+                required: "Please provide your Facebook link",
+                url: "Invalid url"
+            },
+            }
+        }
+    })
+})
